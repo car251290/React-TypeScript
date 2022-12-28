@@ -22,3 +22,7 @@ boolean is for the two values true and false
 
 # Arrays
 To specify the type of an array like [1, 2, 3], you can use the syntax number[]; this syntax works for any type (e.g. string[] is an array of strings, and so on). You may also see this written as Array<number>, which means the same thing. We’ll learn more about the syntax T<U> when we cover generics.
+
+  
+  Property Modifiers
+Each property in an object type can specify a couple of things: the type, whether the property is optional, and whether the property can be written to.
